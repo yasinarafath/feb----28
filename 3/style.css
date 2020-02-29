@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.wrap {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+
+
+}
+
+.container {
+    max-width: 1200px;
+
+}
+
+/*hedaer-part-------------*/
+.bghead {
+    background: #F4F4F4;
+    padding: 40px 0px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+
+}
+
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #000;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+nav ul li {
+    padding: 10px 10px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #777;
+
+}
+
+
+/*setion-1------------*/
+
+
+.bg1 {
+    text-align: center;
+    background-image: url(imgs/testimonials-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: relative;
+    height: 70vh;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.bg-overlay-graduint {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.48);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -2;
+    height: 100%;
+}
+
+.bg1 h2 {
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-top: 57px;
+}
+
+.bg1 p {
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.bg1 button {
+    border: 2px solid #E01723;
+    color: #fff;
+    background: transparent;
+    font-size: 27px;
+    text-transform: capitalize;
+    padding: 8px 56px;
+    margin-top: 11pc;
+}
+
+
+
+/*setion-2------------*/
+
+
+.bg2 {
+    padding: 40px 0px;
+}
+
+.bg2 h2 {
+
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #000;
+
+}
+
+.line {
+    background: #E01723;
+    max-width: 355px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.bg2 img {
+    width: 100%;
+}
+
+.bg2 p {
+    font-weight: 400;
+}
+
+/* setion-3------------*/
+
+
+.bg3 {
+    background: #E6E6E6;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.bg3 h2 {
+
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #000;
+
+}
+
+.bg3 h2 span {
+
+    color: #E01723;
+
+
+}
+
+.line1 {
+    background: #E01723;
+    max-width: 355px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.cv {
+    padding: 0px 19px;
+    background: #fff;
+}
+
+.cv i {
+    color: #E01723;
+    font-size: 27px;
+    border: 10px solid #e6e6e6;
+    background: #fff;
+    padding: 12px;
+    border-radius: 1000px;
+    transform: translateY(-31px);
+}
+
+.bg3 img {
+    width: 100%;
+}
+
+.cv p {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cv h4 {
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: -19px;
+}
+
+.cv button {
+    color: #E01723;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 7px 16px;
+    background: transparent;
+    border: 2px solid #E01723;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* setion-4------------*/
+
+.bg4 {
+    padding: 60px 0px;
+    text-align: end;
+}
+
+.bg4 h4 {
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.bg4 h2 {
+
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #000;
+}
+
+.bg4 h2 span {
+    color: #E01723;
+}
+
+.line2 {
+    background: #E01723;
+    max-width: 355px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.bg4 img {
+    width: 100%;
+}
+
+.bg4 p {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bg4 h4 {
+    text-align: left;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.bg4 button {
+    color: #E01723;
+    text-transform: capitalize;
+    font-weight: 600;
+    background: transparent;
+    border: 0;
+}
+
+/*       setion-5------------*/
+
+.bg5 {
+    background-image: url(imgs/testimonials-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: relative;
+    padding: 60px 0px;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.bg5 img {
+    width: 300px;
+    border-radius: 1000px;
+    text-align: end;
+    display: block;
+    margin-left: 24%;
+}
+
+.bg-overlay-graduint1 {
+    position: absolute;
+    background-color: #6392EABF;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -2;
+    height: 100%;
+}
+
+.bg5 h2 {
+
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.bg5 h4 {
+    text-transform: capitalize;
+    margin-bottom: 3px;
+
+    font-family: 'Kanit', cursive;
+
+
+}
+
+.bg5 p {
+    margin-top: 70px;
+    font-weight: 400;
+}
+
+.line3 {
+    background: #fff;
+    max-width: 355px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+/*    setion-footer-------------*/
+.bgfoot {
+    background: #12273A;
+    padding: 30px 0px;
+    margin-top: 20px;
+}
+.bgfoot h3 {
+	color: #B7C4CF;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-family: initial;
+	font-size: 31px;
+}
+.bgfoot h4 {
+	color: #B7C4CF;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-family: initial;
+	font-size: 26px;
+}
+.bgfoot a {
+	color: #ffff;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-family: initial;
+	font-size: 34px;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.bgfoot p {
+	color: #B7C4CF;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-family: initial;
+	font-size: 22px;
+}
+
+.form-controls {
+	display: inline-block;
+	width: 73%;
+	height: calc(1.5em + .75rem + 2px);
+	padding: 32px 17px;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #B7B7B7;
+	border: 0;
+	margin-right: -4px;
+}
+.bgfoot button {
+	background: #9475C1;
+	border: 0;
+	color: #fff;
+	font-weight: bold;
+	font-family: initial;
+	padding: 16px 10px;
+	font-size: 21px;
+}
+::placeholder{
+    color: #000;font-size: 20px;font-family: initial;
+}
+
+
+
+
+
+/*for responsive
+*/
+@media (max-width:560px) {}
+
+@media (max-width:768px) {
+    .bg5 img {
+
+        display: block;
+        margin: 0 auto;
+    }
+
+    .bg5 {
+        text-align: center;
+    }
+
+    .bg5 p {
+        margin-top: 0;
+    }
+}
